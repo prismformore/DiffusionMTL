@@ -15,7 +15,7 @@ Please check the CVPR 2024 [paper](https://openreview.net/pdf?id=-CwPopPJda) for
 <p align="center">
   <img alt="img-name" src="https://github.com/prismformore/Multi-Task-Transformer/assets/14089338/5862c11f-cd1b-464c-b04e-28a729dde7d4" width="600">
   <br>
-    <em>Framework overview of the proposed TaskPrompter for multi-task scene understanding.</em>
+    <em>Overview of the proposed DiffusionMTL for multi-task scene understanding.</em>
 </p>
 
 
@@ -27,10 +27,10 @@ Please check the CVPR 2024 [paper](https://openreview.net/pdf?id=-CwPopPJda) for
 # :grinning: Train your model!
 
 ## 1. Build recommended environment
-We inherit the environement of TaskPrompter, and here is a successful path to deploy it:
+We inherit the environement of [TaskPrompter](https://github.com/prismformore/Multi-Task-Transformer/tree/main/TaskPrompter), and here is a successful path to deploy it:
 ```bash
-conda create -n taskprompter python=3.7
-conda activate taskprompter
+conda create -n mtl python=3.7
+conda activate mtl
 pip install tqdm Pillow easydict pyyaml imageio scikit-image tensorboard termcolor matplotlib
 pip install opencv-python==4.5.4.60 setuptools==59.5.0
 
