@@ -1,7 +1,7 @@
-# :fire: [CVPR2024] [DiffusionMTL: Learning Multi-Task Denoising Diffusion Model from Partially Annotated Data](https://openreview.net/pdf?id=-CwPopPJda)
+# :fire: [CVPR2024] [DiffusionMTL: Learning Multi-Task Denoising Diffusion Model from Partially Annotated Data](https://arxiv.org/abs/2403.15389)
 
 <p align="center">
-    <a href="https://openreview.net/pdf?id=-CwPopPJda">Paper</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://arxiv.org/abs/2403.15389">Paper</a>&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://prismformore.github.io/diffusionmtl/">Website</a>&nbsp;&nbsp;&nbsp;&nbsp;
 </p>  
 
@@ -12,7 +12,7 @@ This repository contains the codes and models for DiffusionMTL, our multi-task s
 - To exploit multi-task consistency in denois- ing, we further introduce a Multi-Task Conditioning strategy, which can implicitly utilize the complementary nature of the tasks to help learn the unlabeled tasks, leading to an improvement in the denoising performance of the different tasks.
 - State-of-the-art performance on three benchmarks under two different partial-labeling evaluation settings.
 
-Please check the CVPR 2024 [paper](https://openreview.net/pdf?id=-CwPopPJda) for more details.
+Please check the CVPR 2024 [paper](https://arxiv.org/abs/2403.15389) for more details.
 <p align="center">
   <img alt="img-name" src="https://github.com/prismformore/Multi-Task-Transformer/assets/14089338/5862c11f-cd1b-464c-b04e-28a729dde7d4" width="600">
   <br>
